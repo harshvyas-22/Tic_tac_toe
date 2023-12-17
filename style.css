@@ -1,32 +1,36 @@
-
-body{
-    background-color: #DDC3A5;
+body {
+  background-color: #ddc3a5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
-.cell{
-    width: 75px;
-    height: 75px;
-    border: 2px solid;
-    box-shadow: 0 0 0 2px #201E20;
-    line-height: 75px;
-    font-size: 50px;
-    cursor: pointer;
-    text-align: center;
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px #201e20;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
 }
-#gameContainer{
-    font-family: cursive;
-    text-align: center;
-    width: 20rem;
-    height: 26rem;
-    background-color:#E0A96D;
+#gameContainer {
+  font-family: cursive;
+  text-align: center;
+  width: 20rem;
+  height: 26rem;
+  background-color: #e0a96d;
 }
-#cellContainer{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    width: 225px;
-    margin: auto;
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
 }
-#restartbtn{
-    background-color: aquamarine;
-    color: #201E20;
-    cursor: pointer;
+#restartbtn {
+  background-color: aquamarine;
+  color: #201e20;
+  cursor: pointer;
 }
